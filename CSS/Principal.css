@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center; 
+    height: 100vh; /* Altura de la ventana para centrar verticalmente */
+    margin: 0;
+}
+
+
+.btn-regresar, .btn-registrarG, .btn-registrarJ, .btn-veredicto{
+    background-color: #8a9597;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+    
+}
+
+.btn-registrarG{
+margin: 10px 0;
+
+}
+
+.btn-registrarJ{
+margin: 10px 0;
+
+}
+
+.btn-veredicto{
+margin: 10px 0;
+
+}
+
+.btn-regresar{
+margin: 10px 0;
+
+}
