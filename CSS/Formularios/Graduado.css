@@ -1,0 +1,60 @@
+/*<p>Registrar</p>
+        <input type="submit" value="Registrar">*/
+.body, html{
+background-color: rgba(81, 255, 0, 0.534);
+text-align: center;
+}
+
+.FGraduado{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+    gap: 20px; /* Espacio entre los elementos */
+    max-width: 850px; /* Ancho máximo del formulario */
+    margin: auto; /* Centrar el formulario en la pantalla */
+    padding: 20px; /* Espacio alrededor del formulario */
+
+    border: 1px solid #ccc; /* Borde del formulario */
+    background-color: #f9f9f9; /* Color de fondo del formulario */
+}
+.h1{
+    width:500px;
+    margin: 0 auto;
+    background: gray;
+    text-align: center;
+    position:relative;
+}
+input{
+    padding-bottom:20px ;
+}
+input[type="submit"]{
+    display: grid;
+    place-content: center;
+    transform:translateX(50%);
+
+    height: 45px;
+    padding-top: 15px;
+
+    border-width: 0.8px;
+    border-radius: 6px;
+    
+    
+}
+
+
+/*.text1, .text2, .text3, .text4, .text5, .text6, 
+.text7, .text8, .text9, .text10, .text11{
+    padding:12px;
+}
+
+
+.FTesis{
+    /*margin: 0px 0x 100px 20px;*/ /* (top right bottom left) 
+    position: relative;
+    bottom: 518px;
+    left: 25%;
+    align-items: center;
+}*/
+    
+  
+
+    

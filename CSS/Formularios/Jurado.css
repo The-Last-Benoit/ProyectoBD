@@ -1,0 +1,54 @@
+/*<p>Registrar</p>
+ <input type="submit" value="Registrar">*/
+
+ header{  
+    margin:0;
+ }
+.r{
+    display:inline-block;
+    border-width: 1px;
+    border-radius: 4px;
+    height: 30px;
+    transform: translateX(-360%);
+    margin:0;
+ }
+ h1{
+    display: inline-block;
+    margin:0;
+    transform: translateX(-20%);
+ }
+
+ 
+
+.body, html{
+    text-align: center;
+    background-color: rgba(81, 255, 0, 0.534);
+ }
+ .FJurado{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Dos columnas iguales */
+    gap: 20px; /* Espacio entre los elementos */
+    margin: auto; /* Centrar el formulario en la pantalla */
+    max-width: 900px; /* Ancho máximo del formulario */
+    padding: 20px; /* Espacio alrededor del formulario */
+    
+    background-color: #f9f9f9; /* Color de fondo del formulario */
+    border: 1px solid #ccc; /* Borde del formulario */
+            }
+
+input{
+    padding-bottom:20px ;
+    
+    }
+input[type="submit"]{
+     display: grid;
+     place-items: center;
+     transform:translateX(108%);
+
+     height: 45px;
+     padding-top: 15px;
+
+     border-width: 0.8px;
+     border-radius: 6px;
+     
+    }
