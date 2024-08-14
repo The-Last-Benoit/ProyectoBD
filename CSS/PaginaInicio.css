@@ -91,9 +91,14 @@ link{
     display:inline-flex;
     transform: translateX(170%);
     
+    transition: transform 0.3s ease;
+    
 }
 .btn-iniciar:hover{
     color:black;
+    transform-origin: center;
+    transform: translateX(170%) scale(1.1);
+    
 }
 nav a{
     text-decoration: none;
