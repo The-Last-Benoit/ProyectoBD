@@ -4,6 +4,29 @@
 background-color: rgba(81, 255, 0, 0.534);
 text-align: center;
 }
+header{  
+    display: inline-block;
+    margin:0;
+    justify-content: space-between;
+ }
+ header button a:hover{
+      color:blue;
+ }
+.r{
+    display:inline-block;
+    border-width: 1px;
+    border-radius: 4px;
+    height: 30px;
+    transform: translateX(-340%);
+    margin:0;
+    padding: 4px;
+ }
+
+ header h1{   
+    display: inline-block;
+    margin:0;
+    transform: translateX(-20%);
+ }  
 
 .FGraduado{
     display: grid;
@@ -16,13 +39,7 @@ text-align: center;
     border: 1px solid #ccc; /* Borde del formulario */
     background-color: #f9f9f9; /* Color de fondo del formulario */
 }
-.h1{
-    width:500px;
-    margin: 0 auto;
-    background: gray;
-    text-align: center;
-    position:relative;
-}
+
 input{
     padding-bottom:20px ;
 }
