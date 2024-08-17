@@ -3,6 +3,7 @@
 .body, html{
 background-color: rgba(81, 255, 0, 0.534);
 text-align: center;
+height: 825px;
 }
 header{  
     display: inline-block;
@@ -28,6 +29,7 @@ header{
     transform: translateX(-20%);
  }  
 
+
 .FGraduado{
     display: grid;
     grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
@@ -40,9 +42,10 @@ header{
     background-color: #f9f9f9; /* Color de fondo del formulario */
 }
 
-input{
-    padding-bottom:20px ;
+input, select{
+    padding-bottom:18px ;
 }
+
 input[type="submit"]{
     display: grid;
     place-content: center;
