@@ -1,45 +1,102 @@
 body {
     display: flex;
     justify-content: center; 
-    flex-direction: column;
     align-items: center; 
-    height: 100vh; /* Altura de la ventana para centrar verticalmente */
+    flex-direction: column;
+     /* height: 100vh;  Altura de la ventana para centrar verticalmente */
     margin: 0;
+
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: beige;
+}
+h1{
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
+.opciones{
+    display: grid;
+    place-content:center;
+
+    flex-direction: column;
+
+    background-color:rgb(183, 241, 241);
+    width: 428px;
+    height:398px;
+
+    position: absolute;
+    left: 51%; /* relative to nearest positioned ancestor or body element */
+    top: 50%; /*  relative to nearest positioned ancestor or body element */
+    transform: translate(-50%, -50%); /* relative to element's height & width */
+
+    border-width: 40px;
+}
 
 .btn-regresar, .btn-registrarG, .btn-registrarJ, .btn-veredicto{
     background-color: #8a9597;
     border: none;
     color: white;
-    padding: 10px 40px;
+    
     text-align: center;
     text-decoration: none;
-    display: flex;
+
+    margin:5px;
+
+    display: grid;
+    place-content:center;
     
     font-size: 15px;
     cursor: pointer;
     border-radius: 4px;
+
+    width: 185px;
+    height:37px;
+    /*transform:translateY(380%);padding: 10px 40px;*/
     
-    
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .btn-registrarG{
-margin: 10px 0;
-
-}
-
+    margin-bottom: 14px ;
+    transform: translateX(-3%)
+    }
+.btn-registrarG:hover{
+    color:black;
+    transform: translateX(-3%) scale(1.15);
+        
+ }
+    
 .btn-registrarJ{
-margin: 10px 0;
-
-}
-
+    margin: 14px 0;
+    
+    }
+.btn-registrarJ:hover{
+    color:black;
+    transform: scale(1.15);
+        
+    }
+    
 .btn-veredicto{
-margin: 10px 0;
-
-}
-
+    margin: 14px 0;
+    
+    }
+.btn-veredicto:hover{
+    color:black;
+    transform: scale(1.15);
+        
+        }
+    
 .btn-regresar{
-margin: 10px 0;
-
-}
+    margin: 14px 0;
+    
+    }
+.btn-regresar:hover{
+    color:black;
+    transform: scale(1.15);
+        
+        }

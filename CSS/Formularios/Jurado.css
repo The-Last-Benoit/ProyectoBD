@@ -1,9 +1,10 @@
 /*<p>Registrar</p>
  <input type="submit" value="Registrar">*/
 
- header{  
+ .header{  
    margin:0;
 }
+
 .r{
    display:inline-block;
    border-width: 1px;
@@ -11,6 +12,9 @@
    height: 30px;
    transform: translateX(-360%);
    margin:0;
+}
+.ra:hover{
+   color:blue;
 }
 h1{
    display: inline-block;
